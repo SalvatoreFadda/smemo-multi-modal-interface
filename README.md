@@ -37,8 +37,6 @@ SMEMO was developed as an experimental multi-modal interface for children, allow
 - **NLP/Voice:** Google Dialogflow (Intent Recognition & NLU)
 - **Database:** Firebase Realtime Database
 - **Authentication:** Firebase Authentication
-- **Speech Recognition:** Web Speech API (for audio capture)
-- **Speech Synthesis:** Web Speech API (Text-to-Speech)
 
 
 ## Current Status
