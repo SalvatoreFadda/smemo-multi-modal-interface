@@ -20,11 +20,11 @@ const app = dialogflow({
   debug: true
 });
 const projectId = 'smemo-devi-funzionare';
-const sessionId = 'eb79896704bac522258e09db8e61139f45d3b3f6';
+const sessionId = SESSION_ID;
 const query = 'ciao';
 const languageCode = 'it';
 const dialog = require('dialogflow');
-let privateKey = '-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC26tAfIpNdbT6r\niZu6h7m8F+7UohvcHuy/Xi5s8yCLs/p66/9li2CRF7DHlzf3+H4BZ+OW9KryjDrT\nk6iMS/pbcL/818jjesDzrYfzskUcv7f5AlqYhQSJU+o/5FsVYrGHEa99JHc1d5cs\nutH+MzELfVXltg2mWL0KbBSn32qgmHkmIuWSE12CWhbmsjn0S8tguOaSIgqjGYNC\nIG/T/PoLEhJnxbWXavqnLZcwkMfzk0526O/6U9Q732T7hrDUzh8v9AiN9Ce76RqP\njlb7aPtm+yX8hGmL+ZL0PkP57MgQkeb/XHuYlqCHsoUc7MgIZ5zgHIxxTrWxQpgj\nxKWNLHDZAgMBAAECggEADrOt2arKRGqY7GmpiiMJkywrRoznB1i296Smv5wFBCWJ\nnuKkCvHaZ58LVud5GKWw3wUOHl549Pi/a60FEY2zyDC2RajEXUBLDOroL/ampmpk\na4+8X2DlnfIQNGVyyrO9iBksTTcmm7YKgQ5c/Xz41q8Svd1VmIauXw2T1XBYHiMw\nLm96Ciu7oXfkbQAl0B158+PlDwJtBisNGOM9gfnfQvQ0agVyxGT3+E0rshblWesm\ng62Ljr579r8HKJN1o+rCD8rTIfz08zSIQRClD8MNJNF3QheeNiT3kUZcO0KHntvP\nh0Vr9XPo7o3Q05C/R8ANCi4J92B6xm4g/Xyxu0LsQQKBgQDxkq3imAl/VVblWNT1\neOOPZxa5Ys3GChxBdY5yU9jMUD1Qffojq6iJVF+UGsFAQK13+ok/zRZGVXQccktT\nCq+GMaOFm5kz0+VfwO8hgEcgWAKEw8RMQC8LDVOup1G0MZj4JNgnpyNyZxz2pOgy\nbZ09MnmZa0YZnIvz6Ql1NwH8qQKBgQDB114lhinCUXxPRziF3EbqblRMMj70jItH\nAJR/ixs/vplmK4JKqCVG9Jx9J8/+ob3wyWbYYQvA6zThYLGfrDYSihGs6/v91kz+\n/PFJujWdu1NQQFzC76MU7Vv9qSx+jZ6XXqmXxTr64WRthhu5tuns38N0noryfvUe\n3ZrVv57AsQKBgQC6xqz5CJI3SFVCSDeHf6t6IbuZJIJy/zgviGPVk2yJM/TkOjLf\nx4Ysf/bSPQlz004L+MKLeNcjFEkNAXWpxBZIDDMhR1fhkZDEQxjg7xyPLlzsJ6yr\nQ+jbg7dSz31FdB+QpHQX3It0lbL4JDJ/Yu7y9Qa9jwqJHNe8g05TuW8o2QKBgGNJ\nzqaH1yH6nSL6hyBB2W1BQBqbbhXTW4/t4yKFfVqkZWypAp79C8MRjoqo9uglruYE\nM5LH+r5BfB+paLIyAqxyXmVlpvi5aUz/ARTTtZzqk906aolLOAyDHCiNHAZiwgYk\n7deYpgJVqxxSoib5Y076uuIkR2W41BOQTTwJX+axAoGBAM7sLLfRwTJYYq8tDRdj\n8dpTrA5L5iM07MhYZOz+N/5FM89kNZSB7Iaw1NWj3em58Gu2hCDqAa1IV8dxU2ex\n+UvTkNFnBAZmSDThS+BHu84C+rw6zISBus1ui9FkMNkH4gBAfXCfBUhfKVmBineM\nsO9Gd0hYudNMU2i0ssnNUfld\n-----END PRIVATE KEY-----\n';
+let privateKey = PRIVATE_KEY;
 let clientEmail = "client-access@smemo-devi-funzionare.iam.gserviceaccount.com";
 let config = {
   credentials: {
