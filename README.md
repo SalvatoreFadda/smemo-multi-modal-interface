@@ -1,6 +1,10 @@
 # SMEMO - a Multi-modal Interface Promoting Children's Creation of Personal Conversational Agents
 
-This repository contains the implementation of SMEMO (university project concluded with paper publication), a multi-modal interactive application designed for children. This project was developed as part of research exploring conversational user interfaces for young users.
+This repository contains the implementation of SMEMO, a multi-modal interactive application designed for children. This project was developed as part of research exploring conversational user interfaces for young users.
+
+## Univerity Course Project
+Course: Advanced User Interfaces - Politecnico di Milano
+Concluded with paper publication
 
 ## Authors
 
