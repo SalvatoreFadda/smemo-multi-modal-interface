@@ -39,7 +39,6 @@ SMEMO was developed as an experimental multi-modal interface for children, allow
 - **Backend:** JavaScript (Node.js ecosystem)
 - **NLP/Voice:** Google Dialogflow (Intent Recognition & NLU)
 - **Database:** Firebase Realtime Database
-- **Authentication:** Firebase Authentication
 
 
 ## Current Status
@@ -53,7 +52,6 @@ The codebase was developed as a research prototype and proof-of-concept for voic
 - Browser compatibility issues
 - Incomplete error handling
 - Security vulnerabilities in unmaintained packages
-- Missing Dialogflow agent configuration files
 
 
 ## Research Context
